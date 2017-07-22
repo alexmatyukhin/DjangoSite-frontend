@@ -2,7 +2,7 @@
 <html lang="es_ES">
   <head>
     {% block head %}
-      <title>{{ title|e }}</title>
+      <title>{% block title %}{{ title|e }}{% endblock %}</title>
       <meta charset="UTF-8">
       <link rel="stylesheet" href="main.css">
     {% endblock head %}
