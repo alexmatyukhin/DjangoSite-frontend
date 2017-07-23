@@ -1,9 +1,9 @@
-{% extends "base.jinja" %}
+{% include "base.djt" %}
 {% block title %}DjangoSite{% endblock %}
 {% block header %}
   <h1>DjangoSite</h1>
   <h5>Шаблон сайта, созданного при помощи языка программирования Python и веб-фреймворка Django</h5>
-{% endblock header %}
+{% endblock %}
 {% block main %}
   <p class="text">Какой-то текст</p>
-{% endblock main %}
+{% endblock %}
